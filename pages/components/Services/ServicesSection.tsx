@@ -2,8 +2,8 @@ import { SlSocialGoogle, SlSocialYoutube, SlSocialGithub, SlSocialLinkedin } fro
 
 export default function ServicesSection() {
     return (
-        <div className="mx-[6vw] mt-[12vh] border bg-black h-[20vh] flex flex-col justify-center items-center gap-[6vh]">
-            <div className="flex flex-row gap-[18vh]">
+        <div className="mx-[6vw] mt-[12vh] border bg-black h-[20vh] flex flex-col justify-center items-center ">
+            <div className="flex flex-row gap-[22vh]">
                 <div className="flex flex-row justify-center items-center gap-[1vh]">
                     <SlSocialGoogle color="white" className="h-[6vh] w-[2vw]"/>
                     <span className="text-white text-[3vh]">Google</span>

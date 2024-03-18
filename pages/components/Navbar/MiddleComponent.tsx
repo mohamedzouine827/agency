@@ -9,7 +9,7 @@ export default function MiddleComponent() {
                     Services
                 </li>
                 <li className="hover:text-gray-600 font-medium text-[2.7vh]">
-                    Protocols
+                    Team
                 </li>
                 <li className="hover:text-gray-600 font-medium text-[2.7vh]">
                     Blog
