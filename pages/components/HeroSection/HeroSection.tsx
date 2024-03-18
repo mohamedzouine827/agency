@@ -3,7 +3,7 @@ import HeroButton from "@/pages/components/HeroSection/HeroButton";
 
 export default function HeroSection() {
     return (
-        <div className="flex flex-col items-center justify-center mt-[10vh] gap-[6vh]">
+        <div className="flex flex-col items-center justify-center mt-[10vh] gap-[6vh]" id="home">
             <div className="text-center  text-[8vh] font-bold antialiased">
                 We Help To Grow Your Business
                 <br />

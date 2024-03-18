@@ -9,6 +9,7 @@ import Services from "@/pages/components/Services/Services";
 import Service from "@/pages/components/Services/Service";
 import Team from "@/pages/components/Team/Team";
 import TeamMember from "@/pages/components/Team/TeamMember";
+import Footer from "@/pages/components/Footer/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,6 +24,7 @@ export default function Home() {
             <Services />
             <Team />
             <TeamMember />
+            <Footer />
         </div>
     );
 }
