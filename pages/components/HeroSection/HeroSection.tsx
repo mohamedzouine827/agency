@@ -7,7 +7,7 @@ export default function HeroSection() {
             <div className="text-center text-[6vh] lg:text-[8vh] font-bold antialiased">
                 We Help To Grow Your Business
                 <br />
-                With Your Full Potential
+                With Your Full <span className="text-blue-600">Potential</span>
             </div>
             <DescriptionSection />
             <HeroButton />
