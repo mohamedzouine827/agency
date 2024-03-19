@@ -5,7 +5,7 @@ import ContactUs from "@/pages/components/Navbar/ContactUs";
 export default function Navbar() {
     return (
         <nav className="mt-[4vh] mx-[6vw] flex flex-row justify-between items-center">
-            <Image src={logo.src} width={250} height={250} alt="logo" className="w-[3vw] h-[6vh]"/>
+            <Image src={logo.src} width={250} height={250} alt="logo" className="w-[10vw] h-[6vh] lg:w-[3vw] lg:h-[6vh]"/>
             <MiddleComponent />
             <ContactUs />
         </nav>

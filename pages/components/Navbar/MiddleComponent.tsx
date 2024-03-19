@@ -2,7 +2,7 @@ import { Link } from "react-scroll";
 
 export default function MiddleComponent() {
     return (
-        <nav className="flex flex-row justify-between ">
+        <nav className="hidden lg:flex lg::flex-row lg:justify-between ">
             <ul className="flex space-x-[4vw]">
                 <li className="hover:text-gray-600 font-medium text-[2.7vh]">
                     <Link to="home" smooth={true} duration={500}>
